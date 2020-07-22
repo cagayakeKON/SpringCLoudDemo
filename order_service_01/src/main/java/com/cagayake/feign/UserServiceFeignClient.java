@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(name = "user_service")
+@FeignClient(name = "user")
 public interface UserServiceFeignClient {
 
     @RequestMapping(value = "/api/user/getAllUser" ,method = RequestMethod.GET)

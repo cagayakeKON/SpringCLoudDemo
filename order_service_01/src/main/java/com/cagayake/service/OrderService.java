@@ -1,14 +1,10 @@
-package com.cagayake.mapper;
+package com.cagayake.service;
 
 import com.cagayake.pojo.Order;
-import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Mapper
-@Repository
-public interface OrderMapper {
+public interface OrderService {
     void addOrder(Order order);
     List<Order> findOrderByUsername(String username);
     void deleteOrderByUsername(String username);

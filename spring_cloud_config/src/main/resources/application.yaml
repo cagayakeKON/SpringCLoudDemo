@@ -1,0 +1,10 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cagayakeKON/spring_cloud_config.git

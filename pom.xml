@@ -11,7 +11,8 @@
     <modules>
         <module>eureka_server_1</module>
         <module>eureka_server_2</module>
-        <module>user_service</module>
+        <module>zuul_server</module>
+        <module>spring_cloud_config</module>
     </modules>
 
     <parent>
